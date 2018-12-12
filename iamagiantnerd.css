@@ -4,6 +4,10 @@ body {
 	font-family: 'VT323', monospace; 
 }
 
+a:link,a:visited {
+	color: #DBD6B6;
+}
+
 .jumbotron {
 	background-color: #18A4C5;
 	padding: 2rem 0rem 0rem 0rem;
