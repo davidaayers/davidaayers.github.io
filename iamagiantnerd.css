@@ -2,6 +2,7 @@ body {
 	background-color: #18A4C5;
 	color: white;
 	font-family: 'VT323', monospace; 
+	font-size: 20px;
 }
 
 a:link,a:visited {
@@ -11,8 +12,13 @@ a:link,a:visited {
 .jumbotron {
 	background-color: #18A4C5;
 	padding: 2rem 0rem 0rem 0rem;
+	margin: 0rem 0rem 0rem 0rem;
 	font-size: 2em; 
 	line-height: 1.0;
+}
+
+.jumbotron h2 {
+	font-size: .7em;
 }
 
 hr {
@@ -25,4 +31,41 @@ hr {
 
 .col h1 {
 	font-family: 'VT323', monospace; 	
+}
+
+.no-margin
+{
+  margin: 0px !important;
+}
+
+.descriptors {
+	font-size: 1.2em;
+}
+
+.social-links {
+	font-size: 1.3em;
+}
+
+.flex-list {
+	font-family: 'VT323', monospace; 
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.flex-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px;
+}
+
+.flex-list li {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+    border-left: 1px solid #ccc;    
 }
