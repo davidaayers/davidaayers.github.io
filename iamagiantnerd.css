@@ -5,37 +5,28 @@ body {
 	font-size: 20px;
 }
 
+.main {
+	padding: 0px 0px 50px 0px;
+}
+
 a:link,a:visited {
 	color: #DBD6B6;
 }
 
 .jumbotron {
 	background-color: #18A4C5;
-	padding: 2rem 0rem 0rem 0rem;
-	margin: 0rem 0rem 0rem 0rem;
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
 	font-size: 2em; 
 	line-height: 1.0;
 }
 
-.jumbotron h2 {
-	font-size: .7em;
+.jumbotron h1 {
+	padding: 0px 0px 20px 0px;
 }
 
 hr {
 	background-color: white;
-}
-
-.col {
-	font-family: 'Open Sans', sans-serif;
-}
-
-.col h1 {
-	font-family: 'VT323', monospace; 	
-}
-
-.no-margin
-{
-  margin: 0px !important;
 }
 
 .descriptors {
@@ -44,6 +35,21 @@ hr {
 
 .social-links {
 	font-size: 1.3em;
+}
+
+.speaking h1 {
+	font-size: 1.5em;
+	padding: 0px 0px 20px 0px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.speaking .row {
+		padding: 0px 0px 20px 0px;
+	}
+}
+
+.speaking .col-sm {
+	padding: 0px 0px 20px 0px;
 }
 
 .flex-list {
