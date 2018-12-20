@@ -3,9 +3,6 @@ body {
 	color: white;
 	font-family: 'VT323', monospace; 
 	font-size: 20px;
-}
-
-.main {
 	padding: 0px 0px 50px 0px;
 }
 
@@ -21,7 +18,8 @@ a:link,a:visited {
 	line-height: 1.0;
 }
 
-.jumbotron h1 {
+h1 {
+	font-size: 1.5em;
 	padding: 0px 0px 20px 0px;
 }
 
@@ -35,11 +33,6 @@ hr {
 
 .social-links {
 	font-size: 1.3em;
-}
-
-.speaking h1 {
-	font-size: 1.5em;
-	padding: 0px 0px 20px 0px;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
